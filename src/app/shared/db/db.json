@@ -1,0 +1,44 @@
+{
+  "notes": [
+    {
+      "id": 4,
+      "title": "playinggggg",
+      "desc": "playing at 9 "
+    },
+    {
+      "id": 4,
+      "title": "playing",
+      "desc": "playing at 9 pm"
+    },
+    {
+      "id": 4,
+      "title": "playing",
+      "desc": "playing at 9 pm"
+    },
+    {
+      "id": 5,
+      "title": "coding",
+      "desc": "1"
+    },
+    {
+      "id": 6,
+      "title": "eating",
+      "desc": "eating"
+    },
+    {
+      "id": 7,
+      "title": "dsfsdf",
+      "desc": "dsfdsf"
+    }
+  ],
+  "users": [
+    {
+      "username": "admin",
+      "password": "1234"
+    },
+    {
+      "username": "meanStack",
+      "password": "12345"
+    }
+  ]
+}

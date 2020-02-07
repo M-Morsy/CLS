@@ -1,0 +1,20 @@
+<div class="modal-content">
+    <p *ngIf="listingForm.id === 0">Add Item</p>
+    <p *ngIf="listingForm.id > 0">Edit Item</p>
+    <form>
+    <div>
+        <input type="text" [(ngModel)]="listingForm.title" [ngModelOptions]="{standalone: true}">
+    </div>
+    <div>
+        <textarea type="text" [(ngModel)]="listingForm.desc" [ngModelOptions]="{standalone: true}"></textarea>
+    </div>
+
+    <button type="submit" *ngIf="listingForm.id === 0" (click)="onAddItem()">Add</button>
+
+    <button type="submit" *ngIf="listingForm.id > 0" (click)="onEditItem()">Save</button>
+
+
+    <button (click)="bsModalRef.hide()">Cancel</button>
+
+</form>
+</div>

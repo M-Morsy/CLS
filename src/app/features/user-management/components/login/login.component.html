@@ -1,0 +1,6 @@
+<form>
+<input [(ngModel)]="loginForm.username" [ngModelOptions]="{standalone:true}" type="text" placeholder="username">
+<input [(ngModel)]="loginForm.password" [ngModelOptions]="{standalone:true}" type="password" placeholder="password">
+<p>{{ message }}</p>
+<button type="submit" (click)="onLogin()">Login</button>
+</form>
